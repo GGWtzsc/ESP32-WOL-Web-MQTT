@@ -64,10 +64,8 @@ void handleZero() {
   a=!digitalRead(LED);
   server.sendHeader("Location", "/",true);
   server.send(302, "text/plain","");
-  Serial.print("已按下\n");
   delay(100);
   digitalWrite(LED,HIGH);
-  Serial.print("已松开\n");
 }
 
 void handleOne() {
