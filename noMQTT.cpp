@@ -29,17 +29,17 @@ const char index_html[] PROGMEM = R"rawliteral(
   <meta charset="UTF-8" meta name="viewpoDrt" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1 align="center" style = "background-color:#C8E8ED;">开机控制</h1>
+  <h1 align="center" style = "background-color:#C8E8ED;">ESP32 control</h1>
   <h3 align="center">ESP32 Control</h3>
   <P> <br/>
   <br/></p>
-  <p align="center">触发指示器: %ANGLE% ;</p>
+  <p align="center">indicator: %ANGLE% ;</p>
   <P><br/><p>
   <fontbase size=2>
-  <p align="center"><font size="6">&nbsp;&nbsp;&nbsp;<a href="/0"><button style="width: 300px; height: 100px; background-color:#F1948A;"><font size=6>开机</font></button></a></font></p>
+  <p align="center"><font size="6">&nbsp;&nbsp;&nbsp;<a href="/0"><button style="width: 300px; height: 100px; background-color:#F1948A;"><font size=6>ON</font></button></a></font></p>
     <P> <br/>
   <br/><p>
-  <p align="center"><font size="6">&nbsp;&nbsp;&nbsp;<a href="/1"><button style="width: 300px; height: 100px; background-color:#ABEBC6;"><font size=6>刷新</font></button></a></font></p>
+  <p align="center"><font size="6">&nbsp;&nbsp;&nbsp;<a href="/1"><button style="width: 300px; height: 100px; background-color:#ABEBC6;"><font size=6>refresh</font></button></a></font></p>
 </body>
 </html>
 )rawliteral";
